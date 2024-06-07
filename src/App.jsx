@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Footer from "./components/Footer";
 import { BsArrowUp } from "react-icons/bs";
 import Project from "./pages/Project";
 import Playground from "./pages/Playground";
@@ -40,7 +39,6 @@ const App = () => {
             element={
               <div className="relative z-0 bg-primary">
                 <Gallery />
-                <Footer />
               </div>
             }
           />
